@@ -1,3 +1,9 @@
+postgresql-common (173bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Mon, 12 Jun 2017 15:21:57 +0200
+
 postgresql-common (173) unstable; urgency=medium
 
   [ Christoph Berg ]
