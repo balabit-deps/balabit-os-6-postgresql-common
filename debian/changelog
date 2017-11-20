@@ -1,3 +1,18 @@
+postgresql-common (173ubuntu0.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: symlink attack vulnerability
+    - drop privileges when creating log file in pg_ctlcluster.
+    - c8989206ec360f199400c74f129f7b4cb878c1ee
+    - CVE-2016-1255
+  * SECURITY UPDATE: symlink attack vulnerability in init/helper scripts
+    (LP: #1727209)
+    - use lchown instead of chown in pg_createcluster, pg_ctlcluster,
+      pg_upgradecluster.
+    - 8b4d0a889a8287181c4bdf46462db9b737a6e25d
+    - No CVE number
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 08 Nov 2017 08:17:29 -0500
+
 postgresql-common (173bb1) xenial; urgency=medium
 
   * Balabit patched version

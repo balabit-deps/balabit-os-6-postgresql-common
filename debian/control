@@ -1,7 +1,8 @@
 Source: postgresql-common
 Section: database
 Priority: optional
-Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
 Uploaders: Martin Pitt <mpitt@debian.org>, Christoph Berg <myon@debian.org>, Peter Eisentraut <petere@debian.org>
 Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-postgresql/postgresql-common.git
