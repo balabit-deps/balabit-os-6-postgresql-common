@@ -1,3 +1,9 @@
+postgresql-common (173ubuntu0.1bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Mon, 20 Nov 2017 14:20:35 +0100
+
 postgresql-common (173ubuntu0.1) xenial-security; urgency=medium
 
   * SECURITY UPDATE: symlink attack vulnerability
