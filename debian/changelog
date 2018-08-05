@@ -1,3 +1,9 @@
+postgresql-common (173ubuntu0.2bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sun, 05 Aug 2018 04:31:42 +0200
+
 postgresql-common (173ubuntu0.2) xenial; urgency=medium
 
   * Convert triggers to noawait (LP: #1780996)
